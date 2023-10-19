@@ -1,7 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Mandali&family=Nosifer&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-input {
-  @apply w-[250px] border border-gray-200 py-2 px-6 bg-zinc-400/40;
+body {
+  @apply bg-[#F6F6F6] font-mandali;
+}
+.form__input {
+  @apply bg-zinc-100/75 border-b focus:border-b-2 border-primary caret-primary outline-none rounded-md pl-3 py-1 placeholder:text-xs font-light;
 }
