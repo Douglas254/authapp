@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 input {
-  @apply w-[400px] border border-gray-200 py-2 px-6 bg-zinc-400/40;
+  @apply w-[250px] border border-gray-200 py-2 px-6 bg-zinc-400/40;
 }
