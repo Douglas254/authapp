@@ -4,42 +4,54 @@
 
 #### Sign Up & Login
 
-<div style="display: flex; justify-content: center; align-items: center;">  
+<div style="display: flex; justify-content: center; align-items: center; text-align:center">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/signupstep1form.png" alt="signup form screenshot">
-<a>
+</a>
 
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/loginstep1form.png" alt="signup form screenshot">
-<a>
+</a>
 </div>
 
-### Error When same Email address already registered in the database  ❌
-<div style="display: flex; justify-content: center; align-items: center;">  
+### Error When same Email address already registered in the database ❌
+
+<div style="display: flex; justify-content: center; align-items: center; text-align:center">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/signupstep1error.png" style="height: 100%" alt="signup form screenshot">
-<a>
+</a>
 
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/signupstep1.png" style="height: 100%" alt="signup form screenshot">
-<a>
+</a>
 </div>
 
-### Error When trying to login with invalid credentials  ❌
-<div style="display: flex; justify-content: center; align-items: center;">  
+### Error When trying to login with invalid credentials ❌
+
+<div style="display: flex; justify-content: center; align-items: center; text-align:center">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/loginstep1error.png" alt="login form screenshot">
-<a>
+</a>
 
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/loginstep1.png" alt="login form screenshot">
-<a>
+</a>
 </div>
 
 ### successful login ✅
-<div style="display: flex; justify-content: center; align-items: center;">  
+
+<div style="display: flex; justify-content: center; align-items: center; text-align:center">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/welcomedashboard.png" alt="welcome dashboard screenshot">
+</a>
+
+</div>
+
+### MongoDB Collections 💽
+
+<div style="display: flex; justify-content: center; align-items: center; text-align:center">  
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/mongodbentry.png" alt="welcome dashboard screenshot">
 <a>
 
 </div>
