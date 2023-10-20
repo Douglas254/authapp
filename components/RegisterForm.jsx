@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import FormContainer from "./FormContainer";
 
 const RegisterForm = () => {
   const [name, setName] = useState("");
@@ -57,21 +58,9 @@ const RegisterForm = () => {
   };
 
   return (
-    <div className="grid place-content-center h-screen">
-      <div className="relative shadow-lg px-5 py-8 bg-white border-[1px] border-gray-200 rounded-lg">
-        <div className="grid place-items-center absolute top-0 left-0">
-          <div className="w-8 h-8 rounded-br-full shadow-md shadow-zinc-400 bg-primary"></div>
-        </div>
-        <div className="grid place-items-center absolute right-0 top-0">
-          <div className="w-8 h-8 rounded-bl-full shadow-md shadow-zinc-400 bg-primary"></div>
-        </div>
-        <div className="grid place-items-center absolute bottom-0 left-0">
-          <div className="w-8 h-8 rounded-tr-full shadow-md shadow-zinc-400 bg-primary"></div>
-        </div>
-        <div className="grid place-items-center absolute bottom-0 right-0">
-          <div className="w-8 h-8 rounded-tl-full shadow-md shadow-zinc-400 bg-primary"></div>
-        </div>
-        <h1 className="text-xl mb-5 font-nosifer text-center">Sign Up 🤞</h1>
+    <>
+      <FormContainer>
+        <h1 className="text-xl mb-5 font-nosifer text-center">Sign Up 📝</h1>
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
             type="text"
@@ -100,8 +89,8 @@ const RegisterForm = () => {
             Already have an account? <span className="underline">Login</span>
           </Link>
         </form>
-      </div>
-    </div>
+      </FormContainer>
+    </>
   );
 };
 

@@ -4,6 +4,7 @@ import { signIn } from "next-auth/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import FormContainer from "./FormContainer";
 
 const LoginForm = () => {
   const [email, setEmail] = useState("");
@@ -34,35 +35,33 @@ const LoginForm = () => {
   };
 
   return (
-    <div className="grid place-content-center h-screen">
-      <div className="shadow-lg p-5 border-t-4 border-green-400 rounded-lg">
-        <h1 className="text-xl font-bold my-4">Login</h1>
+    <>
+      <FormContainer>
+        <h1 className="text-xl mb-5 font-nosifer text-center">Login 🔑</h1>
         <form onSubmit={handleSubmit} className="flex flex-col gap-3">
           <input
             type="text"
-            placeholder="Email"
+            placeholder="Enter your email"
             onChange={(e) => setEmail(e.target.value)}
+            className="form__input"
           />
           <input
             type="password"
-            placeholder="Password"
+            placeholder="Enter your password"
             onChange={(e) => setPassword(e.target.value)}
+            className="form__input"
           />
-          <button className="bg-green-600 text-white font-bold py-2 px-6 cursor-pointer">
+          <button className="bg-[#B08642] hover:bg-primary/80 hover:font-extrabold transition-all duration-700 text-[14px] rounded-md mt-3 text-white font-bold py-1 cursor-pointer">
             Login
           </button>
 
-          {error && (
-            <div className="bg-red-500 text-white w-fit px-3 py-1 text-sm rounded-md mt-2">
-              {error}
-            </div>
-          )}
-          <Link className="text-sm mt-3 text-right" href={"/register"}>
+          {error && <div className="text-red-500 text-sm">{error}</div>}
+          <Link className="text-xs mt-3 text-center" href={"/register"}>
             Don't have an account? <span className="underline">Register</span>
           </Link>
         </form>
-      </div>
-    </div>
+      </FormContainer>
+    </>
   );
 };
 
