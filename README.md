@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Authentication: Custom Email/Password with NextAuth.js & MongoDB 🔒
 
-## Getting Started
+## Screenshots 📸
 
-First, run the development server:
+#### Sign Up & Login
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div style="display: flex; justify-content: center;">  
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/signupstep1form.png" alt="signup form screenshot">
+<a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/loginstep1form.png" alt="signup form screenshot">
+<a>
+</div>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Error When same Email address already registered in the database  ❌
+<div style="display: flex; justify-content: center;">  
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/signupstep1error.png" style="height: 100%" alt="signup form screenshot">
+<a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/signupstep1.png" style="height: 100%" alt="signup form screenshot">
+<a>
+</div>
 
-## Learn More
+### Error When trying to login with invalid credentials  ❌
+<div style="display: flex; justify-content: center;">  
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/loginstep1error.png" alt="login form screenshot">
+<a>
 
-To learn more about Next.js, take a look at the following resources:
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/loginstep1.png" alt="login form screenshot">
+<a>
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### successful login ✅
+<div style="display: flex; justify-content: center;">  
+<a href="https://customemailpasswordauthapp.vercel.app/">
+  <img src="assets/welcomedashboard.png" alt="welcome dashboard screenshot">
+<a>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+</div>
 
-## Deploy on Vercel
+## Setup ✴️
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [x] Clone the repository using `https://github.com/Douglas254/authapp.git` or download and extract the zip file.
+- [x] Open up the cloned folder in your preferred text editor. Open up a terminal within your workspace and navigate into the /authapp folder
+- [x] Within that folder, run `npm install` which will install all dependencies for you then run `npm run dev` to run the development server on `http://localhost:3000/` :boom:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment ~ Vercel 🌍
+
+View hosted site [here](https://customemailpasswordauthapp.vercel.app/)
+
+## Authors 🖊️
+
+This project was contributed to by:
+
+- [Douglas Obara](https://github.com/douglas254/)
+
+## License 📄
+
+The project is licensed under MIT
