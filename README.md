@@ -4,7 +4,7 @@
 
 #### Sign Up & Login
 
-<div style="display: flex; justify-content: center;">  
+<div style="display: flex; justify-content: center; align-items: center;">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/signupstep1form.png" alt="signup form screenshot">
 <a>
@@ -15,7 +15,7 @@
 </div>
 
 ### Error When same Email address already registered in the database  ❌
-<div style="display: flex; justify-content: center;">  
+<div style="display: flex; justify-content: center; align-items: center;">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/signupstep1error.png" style="height: 100%" alt="signup form screenshot">
 <a>
@@ -26,7 +26,7 @@
 </div>
 
 ### Error When trying to login with invalid credentials  ❌
-<div style="display: flex; justify-content: center;">  
+<div style="display: flex; justify-content: center; align-items: center;">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/loginstep1error.png" alt="login form screenshot">
 <a>
@@ -37,7 +37,7 @@
 </div>
 
 ### successful login ✅
-<div style="display: flex; justify-content: center;">  
+<div style="display: flex; justify-content: center; align-items: center;">  
 <a href="https://customemailpasswordauthapp.vercel.app/">
   <img src="assets/welcomedashboard.png" alt="welcome dashboard screenshot">
 <a>
